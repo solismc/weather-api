@@ -16,3 +16,8 @@ body {
   width: 35vw;
   margin-left: 5vw;
 }
+
+.weatherconditions {
+  list-style-type: none;
+  padding-left: 0px;
+}
