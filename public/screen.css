@@ -8,6 +8,6 @@ body {
   font: 16px / 1 sans-serif;
 }
 
-.results {
-  list-style: none;
+.searchResults {
+  list-style-type: none;
 }
