@@ -60,10 +60,3 @@ class Search {
 
 document.querySelector('.search-by-city-button').addEventListener('click', searchAPIEvent)
 document.querySelector('.search-by-zip-button').addEventListener('click', searchAPIEvent)
-document.querySelector('.search-by-temp-button').addEventListener('click', searchAPIEvent)
-
-
-
-/*const newListItem1 = document.createElement('li')
-newListItem1.textContent = 'Current Humidity is: ' + weatherData.main.humidity
-parent.appendChild(newListItem1)*/
