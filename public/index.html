@@ -16,17 +16,27 @@
 <body>
   <h1>Current Weather in:</h1>
   <section class="container-fluid">
-    <section class="d-flex flex-row">
-      <input type="text" class="input" placeholder="City">
-      <button class="search-by-city-button">Submit</button>
-      <input type="text" class="input" placeholder="Zip Code">
-      <button class="search-by-zip-button">Submit</button>
-      <section class="searchResults">
-        <ul>
-          <li>Temp</li>
-        </ul>
-      </section>
+    <section class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="City" aria-label="City"
+        aria-describedby="search-by-city-button">
+      <button class="search-by-city-button" type="button" id="search-by-city-button">Submit</button>
     </section>
+    <section class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Zip Code" aria-label="Recipient's username"
+        aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+    </section>
+
+    <input type="text" class="input" placeholder="City">
+    <button class="search-by-city-button">Submit</button>
+    <input type="text" class="input" placeholder="Zip Code">
+    <button class="search-by-zip-button">Submit</button>
+    <section class="searchResults">
+      <ul>
+        <li>Temp</li>
+      </ul>
+    </section>
+  </section>
   </section>
 
   <script src="/main.js" charset="utf-8"></script>

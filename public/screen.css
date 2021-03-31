@@ -11,3 +11,8 @@ body {
 .searchResults {
   list-style-type: none;
 }
+
+.container-fluid {
+  width: 35vw;
+  margin-left: 5vw;
+}
