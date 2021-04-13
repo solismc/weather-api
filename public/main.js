@@ -16,13 +16,13 @@ const searchAPIEvent = () => {
 }
 
 class Search {
-  constructor(searchTerm) {
+  constructor (searchTerm, unit) {
     const weatherKey = 'd75481a15f615534ede744531d37163a'
     this.searchTerm = searchTerm
     this.searchUrl = `https://api.openweathermap.org/data/2.5/weather?q=` + searchTerm + '&appid=' + weatherKey
   }
 
-  getSearchResults() {
+  getSearchResults () {
     fetch(this.searchUrl)
       .then(resp => {
         if (resp.status === 200) {
