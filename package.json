@@ -5,7 +5,7 @@
     "start": "browser-sync start --server \"public\" --files \"public\""
   },
   "dependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.29.1",
     "eslint": "^5.2.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.13.0",
